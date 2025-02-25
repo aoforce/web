@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AO FORCE - Manga Futuristic Revolution</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('images/futuristic_bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom: 4px solid #ff66cc;
+        }
+        h1 {
+            font-size: 3rem;
+            text-shadow: 4px 4px 10px #ff66cc;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 40px;
+            margin: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 0 15px #ff66cc;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+        footer {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-top: 4px solid #ff66cc;
+        }
+        a {
+            color: #ff66cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AO FORCE 🚀</h1>
+        <p>The Future of Decentralization - Powered by the Community</p>
+    </header>
+    
+    <section id="about">
+        <h2>What is AO FORCE?</h2>
+        <p>AO FORCE is a community-driven Web3 ecosystem with decentralized governance, NFT-powered tokenomics, and a sustainable economy.</p>
+    </section>
+    
+    <section id="tokenomics">
+        <h2>Tokenomics</h2>
+        <ul>
+            <li><strong>50%</strong> Community Rewards</li>
+            <li><strong>30%</strong> Liquidity Pool</li>
+            <li><strong>20%</strong> NFT Staking & Yield</li>
+        </ul>
+    </section>
+    
+    <section id="roadmap">
+        <h2>Roadmap</h2>
+        <p>🚀 Q1 2025 - Fair Launch & NFT Marketplace</p>
+        <p>🤖 Q2 2025 - AI & Web3 Automation Tools</p>
+        <p>📜 Q3 2025 - Full Decentralization & Governance</p>
+        <p>🌍 Q4 2025 - Global Expansion & Multi-Chain Integration</p>
+    </section>
+    
+    <footer>
+        <p>Join AO FORCE and shape the future of decentralization!</p>
+        <p>Follow us: <a href="#">Twitter</a> | <a href="#">GitHub</a> | <a href="#">Discord</a></p>
+    </footer>
+</body>
+</html>
