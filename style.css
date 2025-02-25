@@ -1,0 +1,73 @@
+/* AO FORCE - Futuristic Manga Style */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: url('images/futuristic_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 4px solid #ff66cc;
+    text-shadow: 2px 2px 8px #ff66cc;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px #ff66cc, 0 0 20px #ff66cc, 0 0 30px #ff66cc; }
+    to { text-shadow: 0 0 20px #ff33aa, 0 0 30px #ff33aa, 0 0 40px #ff33aa; }
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ff66cc;
+    width: 80%;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #ff66cc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+footer {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 4px solid #ff66cc;
+}
+
+a {
+    color: #ff66cc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff33aa;
+    text-decoration: underline;
+}
